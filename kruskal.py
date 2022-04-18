@@ -12,10 +12,11 @@ class Graph:
 		return parent[x]
 
 	def union(self, parent, x, y):
-		xset = self.find(parent, x)
-		yset = self.find(parent, y)
+
+		x_set = self.find(parent, x)
+		y_set = self.find(parent, y)
 		
-		parent[yset] = xset
+		parent[y_set] = x_set
 	
 	def kruskal(self):
 		result = []
