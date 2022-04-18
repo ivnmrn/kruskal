@@ -44,7 +44,9 @@ class Graph:
 			print(f"{x[0]+1} - {x[1]+1}: {x[2]}")
 
 g = Graph(7)
-# Create the 
+"""
+Src node - Dest node - Weight
+"""
 g. add_edge(4, 6, 12)
 g. add_edge(3, 4, 11)
 g. add_edge(1, 4, 10)
